@@ -25,7 +25,7 @@ public class formAuth {
 		RestAssured.given().auth().form("user", "pass", new FormAuthConfig("/login/token","hemantsaroj@rightpoint.com","Hemant123"))
 		.get();
 		
-		System.err.println(filter.getSessionId());
+		System.err.println(filter.getSessionId());;
 		
 		
 	}
